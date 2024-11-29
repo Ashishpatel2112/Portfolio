@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  scroll-behavior: smooth;
+}
+.sub1{
+    background-image: url(https://images.prismic.io//intuzwebsite/d394de11-2b7f-4a72-a3e0-c876f7356a40_Main.png?w=1200&q=75&auto=format,compress&fm=png8);
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+.sub::-webkit-scrollbar{
+  display: none;
+}
+
+.sub5-5-5{
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.sub6-6-6{
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.sub6-6-6:hover .icon{
+  background-color: white;
+  transition: 0.5s;
+}
+.sub6-6-6:hover i{
+  color: rgb(20,157,221);
+  transition: 0.5s;
+}
+.ourinfo:hover .icons{
+  background-color: rgb(20,157,221);
+  transition: 0.5s;
+}
+.ourinfo:hover i{
+  color: white;
+  transition: 0.5s;
+}
+.resume:hover{
+  background-color: rgb(20,157,221);
+  color: white;
+}
+.message:hover{
+  background-color: white;
+  color: black;
+}
+#myimg{
+  border-radius: 0px 250px ;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
