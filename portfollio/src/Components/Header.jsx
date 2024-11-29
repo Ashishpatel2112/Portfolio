@@ -1,7 +1,7 @@
 import React from 'react'
 // import { Link } from 'react-scroll'
 import resume from '../assets/MY RESUME.pdf' 
-import img from '../img/Myimg.jpg'
+// import img from '../img/Myimg.jpg'
 
 function Header() {
   return (
@@ -250,74 +250,7 @@ function Header() {
         </div>
     </div>
 
-    <div className="sub6 h-[80vh] w-full border border-black border-transparent ">
-            <div className="sub6-6 w-full h-[20%] border border-black border-transparent ">
-            <h1 className='font-bold text-4xl ps-5 pt-3'>Services</h1>
-            <div className='h-[5px] w-[70px]  bg-[rgb(20,157,221)] rounded-xl ms-5 mt-4'></div>
-            </div>
-            <div className="sub6-6 w-full h-[80%] border border-black border-transparent flex flex-wrap justify-evenly items-center ">
-                <div className="sub6-6-6 h-[40%] w-[40%] border border-black border-transparent flex">
-                    <div className="sub6-6-6-6 h-full w-[20%] border border-black border-transparent flex justify-center items-center">
-                        <div className="icon h-[70px] w-[70px] rounded-full border-2 border-[rgb(20,157,221)] bg-[rgb(20,157,221)] flex justify-center items-center">
-                        <i class="fa-regular fa-briefcase text-3xl text-white"></i>
-                        </div>
-                    </div>
-                    <div className="sub6-6-6-6 h-full w-[80%] border border-black border-transparent">
-                        <div className="service w-full h-[30%] border border-black border-transparent">
-                            <h1 className='font-bold text-2xl p-2'>Web Design</h1>
-                        </div>
-                        <div className="service w-full h-[70%] border border-black border-transparent">
-                            <p className='p-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, delectus, Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, delectus,</p>
-                        </div>
-                    </div>
-                </div>    
-                <div className="sub6-6-6 h-[40%] w-[40%] border border-black border-transparent flex">
-                    <div className="sub6-6-6-6 h-full w-[20%] border border-black border-transparent flex justify-center items-center">
-                        <div className="icon h-[70px] w-[70px] rounded-full border-2 border-[rgb(20,157,221)] bg-[rgb(20,157,221)] flex justify-center items-center">
-                        <i class="fa-solid fa-code text-3xl text-white"></i>
-                        </div>
-                    </div>
-                    <div className="sub6-6-6-6 h-full w-[80%] border border-black border-transparent">
-                        <div className="service w-full h-[30%] border border-black border-transparent">
-                            <h1 className='font-bold text-2xl p-2'>Web Development</h1>
-                        </div>
-                        <div className="service w-full h-[70%] border border-black border-transparent">
-                            <p className='p-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, delectus, Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, delectus,</p>
-                        </div>
-                    </div>
-                </div>    
-                <div className="sub6-6-6 h-[40%] w-[40%] border border-black border-transparent flex">
-                    <div className="sub6-6-6-6 h-full w-[20%] border border-black border-transparent flex justify-center items-center">
-                        <div className="icon h-[70px] w-[70px] rounded-full border-2 border-[rgb(20,157,221)] bg-[rgb(20,157,221)] flex justify-center items-center">
-                        <i class="fa-duotone fa-solid fa-window-flip  text-3xl text-white"></i>
-                        </div>
-                    </div>
-                    <div className="sub6-6-6-6 h-full w-[80%] border border-black border-transparent">
-                        <div className="service w-full h-[30%] border border-black border-transparent">
-                            <h1 className='font-bold text-2xl p-2'>Responsive</h1>
-                        </div>
-                        <div className="service w-full h-[70%] border border-black border-transparent">
-                            <p className='p-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, delectus, Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, delectus,</p>
-                        </div>
-                    </div>
-                </div>    
-                <div className="sub6-6-6 h-[40%] w-[40%] border border-black border-transparent flex">
-                    <div className="sub6-6-6-6 h-full w-[20%] border border-black border-transparent flex justify-center items-center">
-                        <div className="icon h-[70px] w-[70px] rounded-full border-2 border-[rgb(20,157,221)] bg-[rgb(20,157,221)] flex justify-center items-center">
-                        <i class="fa-regular fa-database text-3xl text-white"></i>
-                        </div>
-                    </div>
-                    <div className="sub6-6-6-6 h-full w-[80%] border border-black border-transparent">
-                        <div className="service w-full h-[30%] border border-black border-transparent">
-                            <h1 className='font-bold text-2xl p-2'>Data Base</h1>
-                        </div>
-                        <div className="service w-full h-[70%] border border-black border-transparent">
-                            <p className='p-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, delectus, Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, delectus,</p>
-                        </div>
-                    </div>
-                </div>    
-            </div>
-    </div>
+   
 
     <div className="sub7 h-[70vh] w-full border border-black border-transparent bg-[rgb(244,250,253)] " id='CONTACT'>
         <div className="sub7-7 w-full h-[20%] border border-black  border-transparent">
